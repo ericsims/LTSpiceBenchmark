@@ -5,7 +5,7 @@ How to Run
 1. Download and install [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) (Make sure to select x64 and use the defualt install location)
 2. Dowload the [LTSpiceBenchmark](https://github.com/ericsims/LTSpiceBenchmark/archive/master.zip)
 3. Unzip
-4. Right click on benchmark.ps1 and select unblock
+4. Right click on benchmark.ps1 and select properties. At the bottom of the general tab, select unblock
 5. Disable windows defender's real time protection (LTSpice write results to disk during simulation with many small writes. Windows Defender real time protection increases the latency of these writes an slows the benchmark down.)
 6. Right click on bencmark.ps1 and select 'Run with PowerShell'
 7. PowerShell may ask for confirmation to run a unsigned script, type Y and hit enter
