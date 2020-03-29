@@ -25,8 +25,7 @@ Write-Output ('average ltspice start time: ' + $baselinetime)
 Write-Output ''
 Start-Sleep -s 1
 
-$files = @('.\DCopPnt.asc', '.\MonteCarlo.asc', '.\LT3845_TA01.asc', '.\Electrometer.asc')
-#$files = @('.\DCopPnt.asc', '.\DCopPnt.asc', '.\DCopPnt.asc')
+$files = @('.\DCopPnt.asc', '.\LT3845_TA01.asc', '.\Electrometer.asc')
 $runs = @()
 $totaltime = 0
 foreach($file in $files)
